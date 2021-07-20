@@ -3,7 +3,7 @@ import React from 'react';
 
 const App = () => {
   return (
-    <h1>Jackfruit Testing</h1>
+    <h1>Lu's Non-Profit Foundation</h1>
   );
 }
 
