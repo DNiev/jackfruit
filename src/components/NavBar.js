@@ -1,12 +1,17 @@
 import React from 'react';
 import { Navbar, Container } from 'react-bootstrap';
 
-const NavBar = () => {
+const Navigation = () => {
     return (
         <Navbar bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand href="/">
-                    <img src="https://imgur.com/9MkXjsU.png"/>
+                    <img
+                        alt="logo" 
+                        src="https://imgur.com/9MkXjsU.png"
+                        width="30"
+                        height="30"
+                    />
                 </Navbar.Brand>
             </Container>
 
@@ -14,4 +19,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar;
+export default Navigation;
