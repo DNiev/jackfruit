@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/NavBar';
 
 const Home = () => {
     return (
         <div>
-            <img src="https://imgur.com/9MkXjsU.png" alt='logo'/>
+            <Navbar/>
+            Testing   
         </div>
     )
 };
