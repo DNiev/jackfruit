@@ -1,9 +1,13 @@
 import React from 'react';
+import {Card} from 'react-bootstrap';
+
 
 const Home = () => {
     return (
         <div>
-            Home Page   
+            <Card>
+
+            </Card>  
         </div>
     )
 };
