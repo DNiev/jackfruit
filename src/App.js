@@ -8,6 +8,7 @@ import Donate from './pages/Donate';
 import Merchandise from './pages/Merchandise';
 import Partners from './pages/Partners';
 import Resources from './pages/Resources';
+import './App.css';
 
 
 const App = () => {

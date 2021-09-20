@@ -1,5 +1,6 @@
 import React from 'react';
-import {Container, Image} from 'react-bootstrap';
+import {Card, Container, Image} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 
 const Home = () => {
@@ -8,6 +9,28 @@ const Home = () => {
             <Container>
                 <Image src="https://imgur.com/9MkXjsU.png" fluid/>                
             </Container> 
+            <Container className='Main-page-cards'>
+                <Card style={{width:'18rem'}}>
+                    <Link to='/photos'>
+                        <Card.Body>
+                            <Card.Title>Photos</Card.Title>
+                            <Card.Text>Info about the Photos page</Card.Text>
+                        </Card.Body>
+                    </Link>
+                </Card>
+                <Card style={{width:'18rem'}}>
+                    <Card.Body>
+                        <Card.Title>About Us</Card.Title>
+                        <Card.Text>Info about the About Us page</Card.Text>
+                    </Card.Body>
+                </Card>
+                <Card style={{width:'18rem'}}>
+                    <Card.Body>
+                        <Card.Title>Contact</Card.Title>
+                        <Card.Text>Info about the Contact page</Card.Text>
+                    </Card.Body>
+                </Card>
+            </Container>
         </div>
     )
 };

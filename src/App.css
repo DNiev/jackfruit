@@ -1,3 +1,7 @@
+.Main-page-cards {
+  display: flex;
+}
+
 .App {
   text-align: center;
 }
