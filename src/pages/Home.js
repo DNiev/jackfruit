@@ -1,13 +1,13 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
+import {Container, Image} from 'react-bootstrap';
 
 
 const Home = () => {
     return (
         <div>
-            <Card>
-
-            </Card>  
+            <Container>
+                <Image src="https://imgur.com/9MkXjsU.png" fluid/>                
+            </Container> 
         </div>
     )
 };
