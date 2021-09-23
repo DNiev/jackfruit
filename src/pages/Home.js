@@ -19,16 +19,21 @@ const Home = () => {
                     </Link>
                 </Card>
                 <Card style={{width:'18rem'}}>
-                    <Card.Body>
-                        <Card.Title>About Us</Card.Title>
-                        <Card.Text>Info about the About Us page</Card.Text>
-                    </Card.Body>
+                    <Link to ='/aboutus'>
+                        <Card.Body>
+                            <Card.Title>About Us</Card.Title>
+                            <Card.Text>Info about the About Us page</Card.Text>
+                        </Card.Body>
+                    </Link>
                 </Card>
                 <Card style={{width:'18rem'}}>
                     <Card.Body>
-                        <Card.Title>Contact</Card.Title>
+                        <Card.Title>Contact Us</Card.Title>
                         <Card.Text>Info about the Contact page</Card.Text>
                     </Card.Body>
+                </Card>
+                <Card>
+
                 </Card>
             </Container>
         </div>
