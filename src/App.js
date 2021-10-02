@@ -6,10 +6,8 @@ import ContactUs from './pages/ContactUs';
 import Photos from './pages/Photos';
 import Donate from './pages/Donate';
 import Merchandise from './pages/Merchandise';
-import Partners from './pages/Partners';
-import Resources from './pages/Resources';
+import Team from './pages/Team';
 import './App.css';
-
 
 const App = () => {
   return (
@@ -21,8 +19,7 @@ const App = () => {
         <Route exact path='/photos' component={Photos}/>
         <Route exact path='/donate' component={Donate}/>
         <Route exact path='/merchandise' component={Merchandise}/>
-        <Route exact path='/partners' component={Partners}/>
-        <Route exact path ='/resources' component={Resources}/>
+        <Route exact path='/team' component={Team}/>
       </Switch>
     </BrowserRouter>
   );
