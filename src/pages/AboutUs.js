@@ -5,9 +5,6 @@ import Navigation from '../Components/NavBar';
 const AboutUs = () => {
     return (
             <div>
-                <Container>
-                    <Navigation/>
-                </Container>
                 This is the About Us Section
             </div>
     )

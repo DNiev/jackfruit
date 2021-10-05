@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Container } from 'react-bootstrap';
+import { Navbar, Container, Button } from 'react-bootstrap';
 
 const Navigation = () => {
     return (
@@ -12,6 +12,7 @@ const Navigation = () => {
                         width="30"
                         height="30"
                     />
+                    <Button href='/Donate'>Donate Now</Button>
                 </Navbar.Brand>
             </Container>
 
