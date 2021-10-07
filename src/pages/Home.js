@@ -6,11 +6,11 @@ import '../Components/Styles/home.css';
 const Home = () => {
     return (
         <div>
-            <Container>
+            <Container className='Hero-container'>
                 <Image src="https://imgur.com/9MkXjsU.png" fluid/>                
             </Container> 
             <Container className='Main-page-cards'>
-                <Card style={{width:'18rem'}}>
+                <Card>
                     <Link to ='/aboutus'>
                         <Card.Body>
                             <Card.Title>About Us</Card.Title>

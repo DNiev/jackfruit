@@ -15,7 +15,6 @@ const Navigation = () => {
                     <Button href='/Donate'>Donate Now</Button>
                 </Navbar.Brand>
             </Container>
-
         </Navbar>
     )
 }
