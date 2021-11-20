@@ -8,7 +8,7 @@ import Donate from './pages/Donate';
 import Merchandise from './pages/Merchandise';
 import Team from './pages/Team';
 import './App.css';
-import Navigation from './Components/Navigation';
+import Navigation from '/Components/Navigation';
 
 const App = () => {
   return (    
