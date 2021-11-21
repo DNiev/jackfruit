@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Navigation from '../Components/Navigation';
+import Navigation from '../components/Navigation';
 
 const AboutUs = () => {
     return (
