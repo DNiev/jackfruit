@@ -8,12 +8,10 @@ import Donate from './pages/Donate';
 import Merchandise from './pages/Merchandise';
 import Team from './pages/Team';
 import './App.css';
-import Navigation from '/Components/Navigation';
 
 const App = () => {
   return (    
     <BrowserRouter>
-      <Navigation/>
       <Switch>
         <Route exact path ='/' component={Home}/>
         <Route exact path ='/aboutus' component={AboutUs}/>

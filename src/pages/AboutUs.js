@@ -5,7 +5,10 @@ import Navigation from '../Components/Navigation';
 const AboutUs = () => {
     return (
             <div>
-                This is the About Us Section
+                <Navigation/>
+                <Container>
+                    This is the About Us Section
+                </Container>
             </div>
     )
 };
